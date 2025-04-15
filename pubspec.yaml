@@ -1,0 +1,77 @@
+name: prescripto
+description: "A medical appointment booking platform connecting patients with trusted healthcare professionals."
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Core dependencies
+  intl: ^0.20.2                 # For internationalization and date formatting
+  http: ^1.1.0                   # For API calls
+  provider: ^6.1.1               # State management
+  shared_preferences: ^2.2.2     # For local storage
+  flutter_secure_storage: ^8.0.0 # For secure storage of tokens
+  flutter_dotenv: ^5.0.2
+
+  # UI Components
+  flutter_svg: ^2.0.7            # For SVG image support
+  cached_network_image: ^3.3.0   # For caching network images
+  google_fonts: ^6.1.0           # For custom fonts
+  table_calendar: ^3.0.9         # For calendar widget in booking
+  syncfusion_flutter_calendar: ^28.1.46  # For advanced appointment scheduling
+  intl_phone_field: ^3.1.0       # For phone number input
+  flutter_rating_bar: ^4.0.1     # For rating system
+
+  # Form handling
+  email_validator: ^2.1.17       # For email validation
+
+  # Networking
+  dio: ^5.3.3                    # Advanced HTTP client
+
+  # Utilities
+  url_launcher: ^6.1.12          # For launching URLs (email, phone)
+  fluttertoast: ^8.2.2           # For toast messages
+
+  # File handling
+  image_picker: ^1.0.4           # For uploading doctor images
+            # For file selection
+
+  # Architecture
+  get_it: ^7.6.4                 # For dependency injection
+  equatable: ^2.0.5              # For value equality
+  flutter_bloc: ^8.1.3           # BLoC state management
+  supabase_flutter: ^2.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6           # For code generation
+  mockito: ^5.4.2                # For testing
+  flutter_dotenv: ^5.1.0         # For environment variables
+  flutter_lints: ^2.0.0
+  flutter_svg: ^2.0.17 # For linting
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+#  fonts:
+#    - family: Roboto
+#      fonts:
+#        - asset: assets/fonts/Roboto-Regular.ttf
+#        - asset: assets/fonts/Roboto-Medium.ttf
+#          weight: 500
+#        - asset: assets/fonts/Roboto-Bold.ttf
+#          weight: 700

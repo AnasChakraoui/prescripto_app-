@@ -1,0 +1,2 @@
+C:/Users/utsav/Downloads/moveon1/prescripto/android/app/.cxx/Debug/5v116e11/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/utsav/Downloads/moveon1/prescripto/android/app/.cxx/Debug/5v116e11/x86_64/CMakeFiles/rebuild_cache.dir
