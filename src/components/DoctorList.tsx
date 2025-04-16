@@ -9,7 +9,7 @@ function DoctorList() {
       specialty: "Cardiologist",
       experience: "15 years",
       rating: 4.8,
-      image: "/doctors/doctor1.jpg"
+      image: "/doctors/doctor1.jpg" 
     },
     // ... existing doctor data ...
   ]);
