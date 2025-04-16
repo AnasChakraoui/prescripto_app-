@@ -26,7 +26,7 @@ function AppointmentModal({ doctor, isOpen, onClose }: AppointmentModalProps) {
     console.log('Appointment booked:', appointmentData);
     onClose();
   };
-
+ 
   if (!isOpen) return null;
 
   return (
