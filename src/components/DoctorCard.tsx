@@ -7,7 +7,7 @@ function DoctorCard({ doctor }) {
   return (
     <div className="border rounded-lg p-4 shadow-md">
       {/* ... existing doctor card UI ... */}
-      
+       
       <button
         onClick={() => setIsModalOpen(true)}
         className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
